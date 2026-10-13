@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MD ROUSHAN | ECE Student & Aspiring Software Engineer</title>
+    <meta name="description" content="Personal portfolio of MD ROUSHAN, a first-year B.Tech Electronics and Communication Engineering (ECE) student at JECRC University, Jaipur. Aspiring software engineer interested in programming, electronics, and technology." />
+    <meta name="author" content="MD ROUSHAN" />
+    <meta name="keywords" content="MD ROUSHAN, JECRC University, ECE student, Software Engineer, Portfolio, Jaipur, Rajasthan, Electronics and Communication Engineering" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="MD ROUSHAN | ECE Student & Aspiring Software Engineer" />
+    <meta property="og:description" content="Personal portfolio of MD ROUSHAN, first-year B.Tech ECE student at JECRC University, Jaipur." />
+    <meta property="og:image" content="/favicon.svg" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="MD ROUSHAN | ECE Student & Aspiring Software Engineer" />
+    <meta name="twitter:description" content="Personal portfolio of MD ROUSHAN, first-year B.Tech ECE student at JECRC University, Jaipur." />
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Theme initialization to avoid flash of wrong theme -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('md-roushan-portfolio-theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 antialiased selection:bg-blue-500/20 selection:text-blue-600 dark:selection:bg-blue-400/20 dark:selection:text-blue-400">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
